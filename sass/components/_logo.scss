@@ -1,0 +1,26 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+
+    margin-right: 93px;
+  }
+
+  .logo__white-item {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--effect-color);
+  }
+
+  .logo__dark-item {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--text-color-on-dark-fone);
+  }
+  

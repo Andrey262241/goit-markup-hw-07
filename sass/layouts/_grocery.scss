@@ -1,0 +1,60 @@
+.grocery {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .grocery__content {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .grocery__list::before {
+    display: block;
+    background-repeat: no-repeat;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    background-position: center;
+    content: "";
+    width: 270px;
+    height: 120px;
+  }
+  
+  .grocery__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--accent-color);
+  
+    margin-bottom: 10px;
+  }
+  
+  .grocery__icon-group::before {
+    background-image: url(../images/group.svg);
+    background-size: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .grocery__icon-clock::before {
+    background-image: url(../images/clock.svg);
+    background-size: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .grocery__icon-diagram::before {
+    background-image: url(../images/diagram.svg);
+    background-size: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .grocery__icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+    background-size: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .grocery__item {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-color);
+  }
